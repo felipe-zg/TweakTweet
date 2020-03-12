@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "450612814993",
+    "firebase_url": "https://boticario-10363.firebaseio.com",
+    "project_id": "boticario-10363",
+    "storage_bucket": "boticario-10363.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450612814993:android:94ac4cba836c07ee010b30",
+        "android_client_info": {
+          "package_name": "com.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450612814993-99cr5f850l775c3s77gma3qneu4bdktm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ciUZKT3qg0hXUeySWTMVD9h3Zoxo9Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450612814993-99cr5f850l775c3s77gma3qneu4bdktm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
