@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Text, FlatList} from 'react-native';
+import {FlatList} from 'react-native';
 import {useSelector, useDispatch} from 'react-redux';
 import database from '@react-native-firebase/database';
 import Lottie from 'lottie-react-native';
