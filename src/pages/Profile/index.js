@@ -8,7 +8,10 @@ import {iniciarPostsUsuario} from '../../store/actions/Posts';
 import Post from '../../components/Post';
 import Container from '../../styles/Container';
 import LoadingView from '../../styles/LoadingView';
+import Texto from '../../styles/Texto';
 import loadingAnimated from '../../animations/form_loading.json';
+import sadAnimation from '../../animations/sad.json';
+import {Animacao} from './styles';
 
 export default function Profile({navigation}) {
   const user = useSelector(state => state.User);
@@ -45,6 +48,17 @@ export default function Profile({navigation}) {
     return (
       <LoadingView>
         <Lottie resizeMode="contain" source={loadingAnimated} autoPlay loop />
+      </LoadingView>
+    );
+  }
+
+  if (posts.length < 1) {
+    return (
+      <LoadingView>
+        <Animacao>
+          <Lottie resizeMode="contain" source={sadAnimation} autoPlay loop />
+        </Animacao>
+        <Texto>Você não possui nenhum post</Texto>
       </LoadingView>
     );
   }

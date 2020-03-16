@@ -52,7 +52,7 @@ export default function Routes() {
           component={SignUp}
           options={{title: 'Cadastrar'}}
         />
-        <Stack.Screen name="Load" component={Load} />
+        <Stack.Screen name="Load" component={Load} options={{title: ''}} />
         <Stack.Screen
           name="Profile"
           component={Profile}
