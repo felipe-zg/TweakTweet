@@ -20,6 +20,7 @@ export const InputPost = styled.TextInput.attrs({
   border: 1px solid #ddd;
   border-radius: 50px;
   width: 80%;
+  height: 77px;
   margin: 10px 10px 0px 0;
   padding: 10px;
   color: #fff;
